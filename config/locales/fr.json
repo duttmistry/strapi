@@ -1,0 +1,5 @@
+{
+  "Auth.form.welcome.title": "Bienvenue!",
+  "Auth.form.welcome.subtitle": "Connectez-vous à votre application",
+  "app.components.LeftMenu.navbrand.title": "Strapi"
+}
