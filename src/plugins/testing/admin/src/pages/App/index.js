@@ -5,7 +5,7 @@
  *
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Switch, Route, Redirect, useHistory } from "react-router-dom";
 import { AnErrorOccurred } from "@strapi/helper-plugin";
 import pluginId from "../../pluginId";
@@ -15,6 +15,9 @@ import Test from "../Test";
 import { Button } from "@mui/material";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "STP";
+  }, []);
   const history = useHistory();
   return (
     <div>
