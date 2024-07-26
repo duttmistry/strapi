@@ -1,7 +1,7 @@
 // @ts-ignore
 import logo from "./extensions/icons/logo.png";
 import menu from "./extensions/icons/favicon.ico";
-import favicon from "./extensions/lock.png";
+import favicon from "./extensions/icons/favicon.ico";
 import { darkTheme, lightTheme } from "./extensions/theme";
 const config = {
   head: {
@@ -55,11 +55,13 @@ const config = {
       "Auth.form.welcome.title": "Welcome to Dr Reddy",
       "Auth.form.welcome.subtitle": "Connectez-vous à votre application",
       "app.components.LeftMenu.navbrand.title": "Strapi",
+      "app.components.LeftMenu.navbrand.workplace": "   ",
     },
     en: {
       "Auth.form.welcome.title": "Welcome to Dr Reddy",
       "Auth.form.welcome.subtitle": "Login into your Dr Readdy Account",
       "app.components.LeftMenu.navbrand.title": "Dr Reddy Dashboard",
+      "app.components.LeftMenu.navbrand.workplace": "    ",
     },
   },
   // Disable video tutorials

@@ -11,10 +11,11 @@
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.5",
     "@mui/material": "^5.16.5",
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
-    "@strapi/icons": "^1.6.3",
+    "@strapi/icons": "^1.19.0",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
