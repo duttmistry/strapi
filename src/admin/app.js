@@ -1,11 +1,9 @@
 // @ts-ignore
 import logo from "./extensions/icons/logo.png";
 import menu from "./extensions/icons/favicon.ico";
-import favicon from "./extensions/icons/favicon.ico";
 import { darkTheme, lightTheme } from "./extensions/theme";
 const config = {
   head: {
-    favicon: favicon,
     title: "Dr Reddy's Dashboard",
   },
   auth: {
